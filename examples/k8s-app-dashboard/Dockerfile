@@ -1,4 +1,4 @@
-FROM mirror.gcr.io/node:20-alpine AS base
+FROM mirror.gcr.io/node:22-alpine AS base
 
 # Install dependencies only when needed
 FROM base AS deps
