@@ -62,3 +62,5 @@ next-env.d.ts
 .npm
 
 .htpasswd
+.envrc
+.kube/
