@@ -1,0 +1,62 @@
+# Next.js関連
+.next/
+out/
+build/
+dist/
+
+# 依存関係
+node_modules/
+/.pnp
+.pnp.js
+
+# テスト
+/coverage
+
+# 本番環境
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# デバッグ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 静的ファイル生成
+public/sitemap.xml
+public/feed.xml
+public/robots.txt
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/fallback-*.js
+**/public/precache-*.js
+
+# macOS
+.DS_Store
+*.pem
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+
+# その他
+.eslintcache
+.npm
